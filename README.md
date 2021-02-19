@@ -1,14 +1,17 @@
 # Laravel crash course
 A Laravel training course for beginners
 
-## Lesson 2 - Framework overview
+
+## Lesson 3 - Basics
      
-1. File structure and basic concepts
-2. Configuration
-3. Artisan
+1. Routing
+2. Controllers
+3. Requests
+4. Views
 
 
 ## Links:
-- https://laravel.com/docs/8.x/installation
-- https://laravel.com/docs/8.x/configuration
-- https://laravel.com/docs/8.x/structure
+- https://laravel.com/docs/8.x/routing
+- https://laravel.com/docs/8.x/controllers
+- https://laravel.com/docs/8.x/requests
+- https://laravel.com/docs/8.x/views
