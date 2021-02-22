@@ -6,25 +6,20 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $includeNews = true;
+
+        $test = 'test';
+
+        return view('pages.home')
+            ->with('includeNews', $includeNews)
+            ->with('test', $test);
     }
 
     public function about()
     {
-        return view('about');
-    }
+        $alertMessage = 'This is a dangerous situation!';
 
-    public function page($path)
-    {
-//        $data = [
-//            'title' => $path,
-//            'excerpt' => 'Lorem ipsum...'
-//        ];
-//
-//        return view('page', $data);
-
-        return view('page')
-            ->with('title', $path)
-            ->with('excerpt', 'This is another way of doing things...');
+        return view('pages.about')
+            ->with('alertMessage', $alertMessage);
     }
 }
