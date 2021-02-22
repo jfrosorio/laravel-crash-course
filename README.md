@@ -2,16 +2,12 @@
 A Laravel training course for beginners
 
 
-## Lesson 3 - Basics
+## Lesson 4 - Blade (Template Engine)
      
-1. Routing
-2. Controllers
-3. Requests
-4. Views
+1. Directives
+2. Components
+3. Layout
 
 
 ## Links:
-- https://laravel.com/docs/8.x/routing
-- https://laravel.com/docs/8.x/controllers
-- https://laravel.com/docs/8.x/requests
-- https://laravel.com/docs/8.x/views
+- https://laravel.com/docs/8.x/blade
