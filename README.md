@@ -2,12 +2,13 @@
 A Laravel training course for beginners
 
 
-## Lesson 4 - Blade (Template Engine)
+## Lesson 5 - Database (Parte 1)
      
-1. Directives
-2. Components
-3. Layout
+1. Models
+2. Migrations
+3. Eloquent ORM
 
 
 ## Links:
-- https://laravel.com/docs/8.x/blade
+- https://laravel.com/docs/8.x/eloquent
+- https://laravel.com/docs/8.x/migrations
