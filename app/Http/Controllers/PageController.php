@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Event;
+
 class PageController extends Controller
 {
     public function home()
     {
-        $includeNews = true;
-
-        $test = 'test';
+        $events = Event::all();
 
         return view('pages.home')
-            ->with('includeNews', $includeNews)
-            ->with('test', $test);
+            ->with('events', $events);
     }
 
     public function about()
