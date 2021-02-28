@@ -2,12 +2,15 @@
 A Laravel training course for beginners
 
 
-## Lesson 6 - Database (Parte 2)
+## Lesson 6 - Developing a basic application (Part 1)
      
-1. Factories
-2. Seeders
+1. Building a template
+2. Service Providers
+3. View composers
+
 
 
 ## Links:
-- https://laravel.com/docs/8.x/database-testing#defining-model-factories
-- https://laravel.com/docs/8.x/seeding
+- https://laravel.com/docs/8.x/blade#layouts-using-template-inheritance
+- https://laravel.com/docs/8.x/providers
+- https://laravel.com/docs/8.x/views#view-composers
