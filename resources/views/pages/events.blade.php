@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'Homepage')
+@section('title', 'Events')
 
 @section('pageHeader')
-    <h1 class="display-4">Homepage</h1>
+    <h1 class="display-4">Events</h1>
 
-    <p class="lead text-muted">This is my body content.</p>
+    <p class="lead text-muted">Our latest events!</p>
 @endsection
 
 @section('content')
@@ -15,7 +15,7 @@
 
             <p class="lead"></p>
 
-            @include('partials.events-highlights')
+            @include('partials.events-grid')
         </div>
     </div>
 @endsection

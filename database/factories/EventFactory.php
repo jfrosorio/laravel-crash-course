@@ -26,6 +26,7 @@ class EventFactory extends Factory
             'description' => $this->faker->text(80),
             'observations' => $this->faker->text(100),
             'image_url' => $this->faker->imageUrl(),
+            'highlighted' => $this->faker->boolean(50),
         ];
     }
 }

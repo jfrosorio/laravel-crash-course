@@ -8,10 +8,7 @@ class PageController extends Controller
 {
     public function home()
     {
-        $events = Event::all();
-
-        return view('pages.home')
-            ->with('events', $events);
+        return view('pages.home');
     }
 
     public function about()
@@ -20,5 +17,13 @@ class PageController extends Controller
 
         return view('pages.about')
             ->with('alertMessage', $alertMessage);
+    }
+
+    public function events()
+    {
+        $events = Event::all();
+
+        return view('pages.events')
+            ->with('events', $events);
     }
 }

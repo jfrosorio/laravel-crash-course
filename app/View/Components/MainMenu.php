@@ -24,6 +24,10 @@ class MainMenu extends Component
                 'link' => route('about-us'),
                 'name' => 'About us',
             ],
+            [
+                'link' => route('events'),
+                'name' => 'Events',
+            ],
         ];
     }
 
