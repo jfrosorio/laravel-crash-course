@@ -26,4 +26,9 @@ class PageController extends Controller
         return view('pages.events')
             ->with('events', $events);
     }
+
+    public function contacts()
+    {
+        return view('pages.contacts');
+    }
 }

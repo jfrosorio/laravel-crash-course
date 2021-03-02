@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('about', [PageController::class, 'about'])->name('about-us');
 Route::get('events', [PageController::class, 'events'])->name('events');
+Route::get('contacts', [PageController::class, 'contacts'])->name('contacts');
+
+Route::post('contacts', [ContactController::class, 'store'])->name('contacts.store');

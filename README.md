@@ -2,15 +2,15 @@
 A Laravel training course for beginners
 
 
-## Lesson 6 - Developing a basic application (Part 1)
+## Lesson 6 - Developing a basic application (Part 2)
      
-1. Building a template
-2. Service Providers
-3. View composers
-
+1. Building a contact form
+2. Validation
+3. Form request validation
+4. Mailables
 
 
 ## Links:
-- https://laravel.com/docs/8.x/blade#layouts-using-template-inheritance
-- https://laravel.com/docs/8.x/providers
-- https://laravel.com/docs/8.x/views#view-composers
+- https://laravel.com/docs/8.x/validation
+- https://laravel.com/docs/8.x/blade#validation-errors
+- https://laravel.com/docs/8.x/mail
