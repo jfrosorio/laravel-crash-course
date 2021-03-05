@@ -12,5 +12,6 @@ A Laravel training course for beginners
 ## Links:
 - https://laravel.com/docs/8.x/controllers#resource-controllers
 - https://laravel.com/docs/8.x/eloquent
+- https://laravel.com/docs/8.x/validation#form-request-validation
 - https://laravel.com/docs/8.x/controllers#api-resource-routes
 - https://laravel.com/docs/8.x/eloquent-resources
