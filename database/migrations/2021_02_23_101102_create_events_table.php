@@ -17,7 +17,7 @@ class CreateEventsTable extends Migration
             $table->id();
             $table->string('name');
             $table->text('description');
-            $table->longText('image_url');
+            $table->longText('image_url')->nullable();
             $table->timestamps();
         });
     }
